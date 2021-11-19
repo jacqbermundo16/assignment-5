@@ -53,13 +53,17 @@ def convert(inputGradef):
     elif round(inputGrade_) == 75:
         print(f" Input Grade: {inputGrade_: .2f}\n Grade/Mark: 3.00\n Description: Passing ")
 
+   # 2.10     65-74 = 5.00  Failure
+    elif round(inputGrade_) >= 65 and round(inputGrade_):
+        print(f" Input Grade: {inputGrade_: .2f}\n Grade/Mark: 5.00\n Description: Failure ")
+
     else: 
         print('others')    
 
   
 
 
-   # 2.10     65-74 = 5.00  Failure
+
    # 2.11      Inc. = Incomplete
    # 2.12         W = Withdrawn
    # 2.13         D = Dropped 
