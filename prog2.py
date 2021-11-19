@@ -13,8 +13,13 @@ def askInputs():
 
 #2 create if else statement to determine the lowest number
 #3 display the number with the lowest value
+def lowestOfThree(a_, b_, c_):
+    if a_ < b_ and a_ < c_:
+        print (f"Lowest Number is {a_}. ")
+    else:
+        print ('others')
+
+
 
 a, b, c = askInputs()
-print (a)
-print (b)
-print (c)
+lowestOfThree(a, b, c)
