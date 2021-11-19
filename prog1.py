@@ -71,7 +71,9 @@ def convert(inputGrade_):
         elif round(inputGrade_) >= 65 and round(inputGrade_) <=74:
             print(f" Input Grade: {inputGrade_: .2f}\n Grade/Mark: 5.00\n Description: Failure ")
 
-        
+        else:
+            print("The grade value cannot be categorized. ")
+
 
 inputGrade = askGradePercentage()
 convert(inputGrade)
