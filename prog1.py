@@ -27,11 +27,13 @@ def convert(inputGradef):
    # 2.3      91-93 = 1.50  Very Good
     elif round(inputGrade_) >= 91 and round(inputGrade_) <= 93:
         print(f" Input Grade: {inputGrade_: .2f}\n Grade/Mark: 1.50\n Description: Very Good ")
-    else:
+   # 2.4      88-90 = 1.75  Very Good
+    elif round(inputGrade_) >= 88 and round(inputGrade_) <= 90:
+        print(f" Input Grade: {inputGrade_: .2f}\n Grade/Mark: 1.75\n Description: Very Good ")
+    else: 
         print('others')    
 
-   
-   # 2.4      88-90 = 1.75  Very Good
+
    # 2.5      85-87 = 2.00  Good
    # 2.6      82-84 = 2.25  Good
    # 2.7      79-81 = 2.50  Satsifactory
